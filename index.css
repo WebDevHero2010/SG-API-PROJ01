@@ -4,11 +4,18 @@ html {
 }
 
 h1 {
+  Color:white;
   padding-top: 20px;
   padding-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h5 {
+  display:flex;
+  justify-content: center;
+  text-decoration: underline;
 }
 
 .logo {
@@ -27,6 +34,7 @@ h1 {
 }
 
 .bg {
-  background: rgb(131,58,180);
-  background: linear-gradient(90deg, rgba(131,58,180,1) 14%, rgba(119,81,189,1) 34%, rgba(29,248,253,1) 70%, rgba(69,252,148,1) 98%);
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  
 }
